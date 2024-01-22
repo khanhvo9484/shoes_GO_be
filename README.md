@@ -31,6 +31,30 @@
 ```bash
 $ npm install
 ```
+## Environment Setup
+1. Create a .env file in the root directory
+2. Add variables to the .env file base on the .env.example file
+3. The default port is 3000, if you want to change it, change the PORT variable in the .env file
+
+```bash
+$ npx prisma generate
+```
+## Database Setup
+```bash
+$ npx prisma generate
+```
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
 
 ## Running the app
 
